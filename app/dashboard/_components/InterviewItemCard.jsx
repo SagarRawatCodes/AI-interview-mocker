@@ -1,4 +1,4 @@
-'use client'
+/*'use client'
 import React from 'react';
 
 function InterviewItemCard({ interview }) {
@@ -18,3 +18,4 @@ function InterviewItemCard({ interview }) {
 
 export default InterviewItemCard;
 
+*/
