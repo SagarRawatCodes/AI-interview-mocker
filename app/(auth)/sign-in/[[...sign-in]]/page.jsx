@@ -1,5 +1,22 @@
-import { SignIn } from '@clerk/nextjs'
+
+
+'use client';
+import { SignIn } from "@clerk/nextjs";
 
 export default function Page() {
-  return <SignIn/>
+  
+  return (
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+      width: '100vw',
+      backgroundColor: '#f9f9f9', // Optional: light background
+      overflow: 'hidden' // Prevent scrollbars
+    }}>
+      <SignIn/>
+    </div>
+  );
 }
+
